@@ -1,0 +1,22 @@
+/* src/components/Header.css */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+.header-info {
+    text-align: left;
+}
+
+.header-right img {
+    width: 200px;
+}

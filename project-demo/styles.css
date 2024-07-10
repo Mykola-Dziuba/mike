@@ -1,8 +1,16 @@
-.App {
-    text-align: center;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
 }
 
-.header {
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -11,11 +19,22 @@
     border-bottom: 1px solid #dee2e6;
 }
 
+h1,
+h2 {
+    margin: 0;
+}
+
 .header-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.info-left {
     text-align: left;
 }
 
-.header-right img {
+.info-right img {
     width: 200px;
 }
 
