@@ -1,5 +1,5 @@
 import React from 'react';
-import diagram from './Mirus-web-logo.png'; // Завантажене зображення
+import diagram from './Mirus-web-logo.jpg'; // Загрузка изображения
 
 function Diagram() {
     return (
