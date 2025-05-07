@@ -1,0 +1,59 @@
+Slide 1: Title
+"Improving Observability Across On-Prem Kubernetes Clusters"
+
+Hello everyone,
+Today I want to propose an initiative to improve observability for our on-premises Kubernetes clusters, tailored to the specific needs of application teams.
+
+Slide 2: Current State
+We currently use:
+
+Sysdig for system-level monitoring
+
+Prometheus + Grafana for metrics
+
+Splunk for logs
+
+This works, but the data isn't always actionable or visible in the right way for different teams.
+
+Slide 3: The Vision
+My proposal:
+
+Create custom Grafana dashboards for each team
+
+Pull in metrics from:
+
+Prometheus
+
+Splunk (critical logs, errors)
+
+Kafka (message flow)
+
+MQ systems (queue length, processing time)
+
+Set up alerting directly to Microsoft Teams
+
+The goal is to bridge the gap between raw data and useful insights.
+
+Slide 4: Tracing & AI Potential
+Next steps:
+
+Implement Jaeger for distributed tracing
+
+Add visibility into request flows, bottlenecks, and latencies
+
+In the future, integrate AI-powered log and error analysis
+
+Speed up root cause analysis
+
+Proactively suggest fixes
+
+Slide 5: Why This Matters
+Benefits:
+
+Clear, role-specific observability for dev and ops teams
+
+Faster incident response
+
+Less noise, more context
+
+Foundation for intelligent automation and AI
