@@ -52,6 +52,9 @@ Benefits:
 
 Clear, role-specific observability for dev and ops teams
 
+"Making Monitoring Accessible and Actionable for All Teams"
+The primary goal is to build a unified observability layer that delivers clear, relevant, and actionable insights to every team — enabling faster response, better collaboration, and more confident operations.
+
 Faster incident response
 
 Less noise, more context
