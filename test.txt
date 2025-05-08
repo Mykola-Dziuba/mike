@@ -51,7 +51,6 @@ Slide 5: Why This Matters
 Benefits:
 
 Clear, role-specific observability for dev and ops teams
-
 "Making Monitoring Accessible and Actionable for All Teams"
 The primary goal is to build a unified observability layer that delivers clear, relevant, and actionable insights to every team — enabling faster response, better collaboration, and more confident operations.
 
@@ -60,3 +59,28 @@ Faster incident response
 Less noise, more context
 
 Foundation for intelligent automation and AI
+
+
+
+#################################################################################################################################################################################################################
+About Me & Why This Initiative
+I’ve been working at Nordea for over 2 years as a DevOps engineer.
+During this time, I’ve been actively involved in adapting and delivering GORM releases, handling production incidents, and—like every member of our team—spending countless hours digging through logs and metrics to identify issues.
+
+Based on this hands-on experience, I’d like to present our team’s vision for improving observability and unlocking its full potential.
+
+
+###
+The Challenge with Our Current Monitoring Stack
+We use several monitoring tools:
+Sysdig
+Grafana / Prometheus
+Splunk
+Databases monitoring by DB team 
+
+These are separate systems, and the challenge is that, as an engineer, I often have to manually correlate data across at least three different sources to investigate issues.
+
+This process is time-consuming, requires deep expertise, and slows down incident resolution.
+
+###
+
